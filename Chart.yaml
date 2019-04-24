@@ -1,7 +1,7 @@
 apiVersion: v1
 description: Helm chart to deploy OIDC stack for Kubernetes auth
 name: kube-oidc
-version: 1.0.0
+version: 1.1.0
 maintainers:
   - email: flav.hardy@gmail.com
     name: fydrah
