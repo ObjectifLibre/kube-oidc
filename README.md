@@ -10,14 +10,14 @@ This chart deploys:
 * From chart repository:
 
 ```
-helm repo add fydrahcharts https://charts.fhardy.fr
+helm repo add fhardy-stable https://registry.fhardy.fr/chartrepo/stable
 helm repo update
 ```
 
 Override [default configuration](./values.yaml) with an `override.yaml` file.
 
 ```
-helm install fydrahcharts/kube-oidc -f override.yaml
+helm install fhardy-stable/kube-oidc -f override.yaml
 ```
 
 * From GitHub:
