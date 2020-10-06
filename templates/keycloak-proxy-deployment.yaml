@@ -43,7 +43,7 @@ spec:
           mountPath: /etc/ssl/
       {{- if .Values.keycloakProxy.resources }}
         resources:
-{{ toYaml .Values.keycloakProxy.resources | indent 8 }}
+{{ toYaml .Values.keycloakProxy.resources | indent 10 }}
       {{- end }}
         #readinessProbe:
         #  httpGet:

@@ -44,7 +44,7 @@ spec:
           mountPath: /etc/ssl/
       {{- if .Values.loginapp.resources }}
         resources:
-{{ toYaml .Values.loginapp.resources | indent 8 }}
+{{ toYaml .Values.loginapp.resources | indent 10 }}
       {{- end }}
         readinessProbe:
           httpGet:
