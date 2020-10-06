@@ -40,7 +40,7 @@ spec:
           mountPath: /etc/dex/cfg
       {{- if .Values.dex.resources }}
         resources:
-{{ toYaml .Values.dex.resources | indent 8 }}
+{{ toYaml .Values.dex.resources | indent 10 }}
       {{- end }}
         readinessProbe:
           httpGet:
