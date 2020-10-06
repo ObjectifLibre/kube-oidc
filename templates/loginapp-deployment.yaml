@@ -46,6 +46,8 @@ spec:
         resources:
 {{ toYaml .Values.loginapp.resources | indent 10 }}
       {{- end }}
+        command: ["/loginapp"]
+        args: ["serve","-c","/app/config.yaml"]
         readinessProbe:
           httpGet:
             path: /healthz
