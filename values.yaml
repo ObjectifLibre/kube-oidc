@@ -14,7 +14,7 @@ dex:
   # Image
   image:
     repository: quay.io/dexidp/dex
-    tag: v2.15.0
+    tag: v2.25.0
     pullPolicy: IfNotPresent
 
   # Deployment settings
