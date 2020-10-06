@@ -37,6 +37,10 @@ helm install . -f override.yaml
 
 See [values.yaml](./values.yaml).
 
+## Changes on kuberentes
+
+See [kube-apiserver oidc](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens)
+
 ## Examples
 
 * [SAML configuration](./examples/SAML.md)
