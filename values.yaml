@@ -263,7 +263,7 @@ keycloakProxy:
   # Image
   image:
     repository: keycloak/keycloak-gatekeeper
-    tag: 4.6.0.Final
+    tag: 7.0.0
     pullPolicy: IfNotPresent
 
   # Deployment settings
