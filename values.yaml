@@ -181,7 +181,7 @@ loginapp:
   # Image
   image:
     repository: quay.io/fydrah/loginapp
-    tag: 2.7.0
+    tag: v3.1.0
     pullPolicy: IfNotPresent
 
   # Deployment settings
